@@ -3,11 +3,73 @@ background-image: url(./assets/images/background-brick-wall-bricks-brickwork-259
 background-repeat: no-repeat;
 background-size: 100% 100%;
 }
-body>table>tr>td>a{
+
+body{
+    font-size: 1rem;
+    font-style: normal;
+    color:black;
+    
+}
+nav{
+    font-size: 2rem;
+    padding-top: 1%;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+}
+    
+.prof{
+    
+    font-family:Sofia-pro;
+    font-weight: 600;
+    font-style: normal;
+    padding: 0 1%;
+    margin: 0;
+    color:rgb(68, 46, 46);
+    font-size: 12px;
+    letter-spacing: .24em;
+    line-height: 1em;
+    text-transform: uppercase;
+    
+}
+
+.navigation{
+    display: flex;
+    flex-flow: row wrap;
+    height: 30px;
+    font-size: 26px;  
+    
+}
+a:hover{
+    text-decoration: none;
+    color:black;
+}
+.navigation>div>a{
     font-size: 20px;
     text-decoration: none;
     padding-right: 25px;
 }
-body>table>tr>td>a:hover{
+.navigation>div>a:hover{
     color:white;
+}
+.right-item{
+    margin-left: 38%; 
+    letter-spacing: .1em;
+}
+.nav-link{
+    color: black;
+}
+.name{
+    font-size: 3.75rem;
+    overflow: auto;
+    white-space: nowrap;
+}
+.items{
+    padding-right: 4%;
+    font-size: 1.5rem;
+}
+.icons{
+    font-size: 1.5rem;
+}
+brand{
+    float: inline-end;
 }
