@@ -94,3 +94,38 @@ a:hover{
 .c-link{
     margin-right: 1rem;
 }
+.blogs{
+    padding-top: 15rem;
+}
+.card{
+    border: 0px;
+    border-radius: 0px;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+}
+.card-img-top{
+    border-radius: 0px;
+}
+.card-subtitle{
+    font-family: sofia-pro;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 11px;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+}
+.card-title{
+    font-family: ltc-bodoni-175;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 35px;
+    letter-spacing: .03em;
+}
+
+.card-text{
+    font-family: Segoe UI;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
+    letter-spacing: .01em;
+}
