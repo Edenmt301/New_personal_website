@@ -13,7 +13,11 @@
 </head>
 <body>
     <header>
-        <nav class="navbar-expand-md bg-white transparent-navbar fixed-top">
+        <nav class="navbar navbar-expand-md bg-white transparent-navbar fixed-top">
+            <div class="brand flex-container">
+            <a  class=" nav-item name navbar-brand nav-link" href="index.html">EDEN MESFIN</i></a>
+            <a class="prof" href="index.html">SOFTWARE ENGINEER</a>
+            </div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#colNav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 
                 <span class="navbar-toggler-icon"></span>
@@ -22,9 +26,6 @@
         
         <div class="collapse navbar-collapse" id="colNav">
 
-            <div class="navbar-nav ">
-                <div class="nav-item name"><a class="nav-link" href="index.html">EDEN MESFIN</a></div>      
-            </div>
             
                 <div class="navbar-nav navbar-right right-item">
                     <div class="nav-item items"><a class="nav-link" href="about.html">ABOUT</a></div>
@@ -35,75 +36,53 @@
                     <div class="nav-item icons"><a class="nav-link" href="https://twitter.com/edimes1" target = "_blank"><i class="fa fa-twitter"></i></a></div>
                     <div class="nav-item icons"><a class="nav-link" href="https://www.facebook.com/eden.mesfin.39" target = "_blank"><i class="fa fa-facebook-f"></i></a></div>
                 </div>
-                
-        
-        </div> 
-            <a class="prof navbar-brand" href="index.html">SOFTWARE ENGINEER</a>            
- 
+        </div>
+                   
         </nav>
     </header>
-
-        <table align="center" cellspacing="2">
-            <tr><td><br><br><br><br><br><br><br></td></tr>
-            <tr>
-                <td><h4 align="center">Contact</h4></td>
-                </tr>
-                <tr>
-                <td align="center">I’m always looking forward to work with new people. 
-                    If you have project idea in mind, please don’t hesitate to get in touch. <br>
-                    You can either send me a direct message on social media or fill out the form below. <br>
-                    I look forward to hearing from you.</td>
-            </tr>
-            <tr><td><br><br><br></td></tr>
-            <table align="center">
-            <tr>
-                <td><a class="text-dark" href="https://www.instagram.com/edimes100/" target = "_blank"><i class="fa fa-instagram fa-2x"></i></a>&nbsp;&nbsp;</td> 
-                <td><a class="text-dark" href="https://twitter.com/edimes1" target = "_blank"><i class="fa fa-twitter fa-2x"></i></a>&nbsp;&nbsp;</td>
-                <td><a class="text-dark" href="https://www.facebook.com/eden.mesfin.39" target = "_blank"><i class="fa fa-facebook-f fa-2x"></i></a></td>
-            </tr>
-            <tr><td><br><br><br></td></tr>
-        </table>
-        <table align="center" cellpadding="5" >
-            <tr>
-                <td >&nbsp; Name*</td> 
-            </tr>
-            <tr><td><table>
-                        
-            <tr>
-                <td><input required type="text" name="fName" id="fName" pattern="[A-Za-z]{2,20}" title="letters only" size="47"></td>
-                <td><input required type="text" name="sName" id="sName" pattern="[A-Za-z]{2,20}" title="letters only" size="47"></td>
-            </tr>
-            <tr>
-                <td><label for="fName">First Name:</label><br></td>
-                <td><label for="sName">Last Name</label><br></td> 
-            </tr>
-            </table></td>
-            </tr>
-            
-            <tr>
-           <td><label for="eMail">Email*</label></td>
-        </tr>
-        <tr>
-           <td><input required type="email" name="eMail" id="eMail" size="100"></td>
-            </tr>
-            <tr>
-                <td><label for="subject">Subject*</label></td>
-            </tr>
-            <tr>
-                <td><input required type="text" name="subject" id="subject" pattern="[A-Za-z]{2,20}" title="your subject" size="100"></td>
-            </tr>
-        <tr>
-          <td> <label for="txarea">Message*</label></td>
-          </tr>
-          <tr>
-          <td > <textarea required name="" id="txarea" cols="101.5" rows="4" name="txarea"aria-setsize="114*114" ></textarea></td>
-          </tr>
-          <tr>
-           <td><input type="submit" value="submit" ></td>
-        </tr>
+    <div class="flex-container">
+        <div class="center contact">Contact</div>
+        <div class="center">I’m always looking forward to work with new people. 
+            If you have project idea in mind, please don’t hesitate to get in touch. <br>
+            You can either send me a direct message on social media or fill out the form below. <br>
+            I look forward to hearing from you.</div>
+        <div class="center c-links">
+            <a class="text-dark c-link" href="https://www.instagram.com/edimes100/" target = "_blank"><i class="fa fa-instagram fa-2x"></i></a>
+            <a class="text-dark c-link" href="https://twitter.com/edimes1" target = "_blank"><i class="fa fa-twitter fa-2x"></i></a>
+            <a class="text-dark c-link" href="https://www.facebook.com/eden.mesfin.39" target = "_blank"><i class="fa fa-facebook-f fa-2x"></i></a>
+        </div>
+    </div>
+    <div class="container px-4">
+        <form class="mx-auto" action="">
+            <label for="">Name :</label>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                  <input type="email" class="form-control" id="fname">
+                  <label for="fname">First name</label>
+                </div>
+                <div class="form-group col-md-6">
+                  <input type="password" class="form-control" id="lname">
+                  <label for="lname">Last name</label>
+                </div>
+              </div>
+            <div class="form-group">
+                <label for="memail">Email : </label>
+                <input class="form-control" type="email" name="memail" id="memail">
+            </div>
+            <div class="form-group">
+                <label for="subject">Subject  </label>
+                <input class="form-control" type="text" name="subject" id="subject">
+            </div>
+            <div class="form-group">
+                <label for="txarea">Message</label>
+                <textarea class="form-control" id="txarea" rows="4"></textarea>
+              </div>
+            <div class="form-group"><label for="fname">
+                <input class="form-control-lg" type="submit" >
+            </div>
+        </form>
+    </div>
         
-        </table>
-    </table> 
     
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
