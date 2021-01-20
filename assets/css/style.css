@@ -144,6 +144,7 @@ a:hover{
     padding-right: 4rem;
     display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
 }
 .abt-text{
     padding: 4rem 1rem;
@@ -163,4 +164,14 @@ a:hover{
     margin-left: 2rem;
     border-radius: 0.25rem;
 }
-
+.copy_right{
+    color: rgb(150, 150, 150);
+    font-size: 1rem;  
+    margin-top: 1rem;
+}
+.fo-row{
+    justify-content: center;
+}
+footer{
+    margin-top: 6rem;
+}
