@@ -139,3 +139,28 @@ a:hover{
 .im-row{
     padding-left: 0.75rem;
 }
+.flex-container-hor{
+    padding-top: 13rem;
+    padding-right: 4rem;
+    display: flex;
+    flex-direction: row;
+}
+.abt-text{
+    padding: 4rem 1rem;
+    font-family: Segoe UI;
+    font-size: 1.2rem;
+}
+.abt-name{
+    font-size: 2rem;
+    margin-bottom: 0rem;
+}
+.abt-prof{
+    font-size: 1rem;
+    padding-bottom: -1rem;
+    margin-bottom: 0.5rem;
+}
+.abt-image>img {
+    margin-left: 2rem;
+    border-radius: 0.25rem;
+}
+
