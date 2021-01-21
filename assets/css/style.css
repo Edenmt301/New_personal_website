@@ -156,6 +156,32 @@ a:hover{
     font-size: 15px;
     letter-spacing: .01em;
 }
+.blog-title{
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    letter-spacing: -.02em;
+}
+.blog-content{
+    font-family: Segoe UI;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
+    letter-spacing: .01em;
+    line-height: 1.7rem;
+    padding-top: 3rem;
+    text-align: left;
+}
+.b-links{
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+.date{
+    margin-top: 12rem;
+    text-transform: uppercase;
+}
+
 .images{
     padding-top: 8rem;
 }
